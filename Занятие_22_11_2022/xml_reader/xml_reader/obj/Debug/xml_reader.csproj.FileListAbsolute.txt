@@ -1,0 +1,43 @@
+c:\users\юлия\documents\visual studio 2013\Projects\xml_reader\xml_reader\bin\Debug\xml_reader.exe.config
+c:\users\юлия\documents\visual studio 2013\Projects\xml_reader\xml_reader\obj\Debug\xml_reader.csprojResolveAssemblyReference.cache
+c:\users\юлия\documents\visual studio 2013\Projects\xml_reader\xml_reader\obj\Debug\xml_reader.Form1.resources
+c:\users\юлия\documents\visual studio 2013\Projects\xml_reader\xml_reader\obj\Debug\xml_reader.Properties.Resources.resources
+c:\users\юлия\documents\visual studio 2013\Projects\xml_reader\xml_reader\obj\Debug\xml_reader.csproj.GenerateResource.Cache
+c:\users\юлия\documents\visual studio 2013\Projects\xml_reader\xml_reader\bin\Debug\xml_reader.exe
+c:\users\юлия\documents\visual studio 2013\Projects\xml_reader\xml_reader\bin\Debug\xml_reader.pdb
+c:\users\юлия\documents\visual studio 2013\Projects\xml_reader\xml_reader\obj\Debug\xml_reader.exe
+c:\users\юлия\documents\visual studio 2013\Projects\xml_reader\xml_reader\obj\Debug\xml_reader.pdb
+c:\users\юлия\documents\visual studio 2013\Projects\xml_reader\xml_reader\bin\Debug\xmltext.xml
+C:\Users\d.kulikov\Desktop\xml_reader\xml_reader\bin\Debug\xmltext.xml
+C:\Users\d.kulikov\Desktop\xml_reader\xml_reader\bin\Debug\xml_reader.exe.config
+C:\Users\d.kulikov\Desktop\xml_reader\xml_reader\bin\Debug\xml_reader.exe
+C:\Users\d.kulikov\Desktop\xml_reader\xml_reader\bin\Debug\xml_reader.pdb
+C:\Users\d.kulikov\Desktop\xml_reader\xml_reader\obj\Debug\xml_reader.csprojAssemblyReference.cache
+C:\Users\d.kulikov\Desktop\xml_reader\xml_reader\obj\Debug\xml_reader.Form1.resources
+C:\Users\d.kulikov\Desktop\xml_reader\xml_reader\obj\Debug\xml_reader.Properties.Resources.resources
+C:\Users\d.kulikov\Desktop\xml_reader\xml_reader\obj\Debug\xml_reader.csproj.GenerateResource.cache
+C:\Users\d.kulikov\Desktop\xml_reader\xml_reader\obj\Debug\xml_reader.csproj.CoreCompileInputs.cache
+C:\Users\d.kulikov\Desktop\xml_reader\xml_reader\obj\Debug\xml_reader.exe
+C:\Users\d.kulikov\Desktop\xml_reader\xml_reader\obj\Debug\xml_reader.pdb
+c:\Переработка_лабы_20_11_2022\xml_reader\xml_reader\bin\Debug\xmltext.xml
+c:\Переработка_лабы_20_11_2022\xml_reader\xml_reader\bin\Debug\xml_reader.exe.config
+c:\Переработка_лабы_20_11_2022\xml_reader\xml_reader\bin\Debug\xml_reader.exe
+c:\Переработка_лабы_20_11_2022\xml_reader\xml_reader\bin\Debug\xml_reader.pdb
+c:\Переработка_лабы_20_11_2022\xml_reader\xml_reader\obj\Debug\xml_reader.csproj.AssemblyReference.cache
+c:\Переработка_лабы_20_11_2022\xml_reader\xml_reader\obj\Debug\xml_reader.Form1.resources
+c:\Переработка_лабы_20_11_2022\xml_reader\xml_reader\obj\Debug\xml_reader.Properties.Resources.resources
+c:\Переработка_лабы_20_11_2022\xml_reader\xml_reader\obj\Debug\xml_reader.csproj.GenerateResource.cache
+c:\Переработка_лабы_20_11_2022\xml_reader\xml_reader\obj\Debug\xml_reader.csproj.CoreCompileInputs.cache
+c:\Переработка_лабы_20_11_2022\xml_reader\xml_reader\obj\Debug\xml_reader.exe
+c:\Переработка_лабы_20_11_2022\xml_reader\xml_reader\obj\Debug\xml_reader.pdb
+C:\Users\d.kulikov\Desktop\Занятие_22_11_2022\xml_reader\xml_reader\bin\Debug\xmltext.xml
+C:\Users\d.kulikov\Desktop\Занятие_22_11_2022\xml_reader\xml_reader\bin\Debug\xml_reader.exe.config
+C:\Users\d.kulikov\Desktop\Занятие_22_11_2022\xml_reader\xml_reader\bin\Debug\xml_reader.exe
+C:\Users\d.kulikov\Desktop\Занятие_22_11_2022\xml_reader\xml_reader\bin\Debug\xml_reader.pdb
+C:\Users\d.kulikov\Desktop\Занятие_22_11_2022\xml_reader\xml_reader\obj\Debug\xml_reader.csprojAssemblyReference.cache
+C:\Users\d.kulikov\Desktop\Занятие_22_11_2022\xml_reader\xml_reader\obj\Debug\xml_reader.Form1.resources
+C:\Users\d.kulikov\Desktop\Занятие_22_11_2022\xml_reader\xml_reader\obj\Debug\xml_reader.Properties.Resources.resources
+C:\Users\d.kulikov\Desktop\Занятие_22_11_2022\xml_reader\xml_reader\obj\Debug\xml_reader.csproj.GenerateResource.cache
+C:\Users\d.kulikov\Desktop\Занятие_22_11_2022\xml_reader\xml_reader\obj\Debug\xml_reader.csproj.CoreCompileInputs.cache
+C:\Users\d.kulikov\Desktop\Занятие_22_11_2022\xml_reader\xml_reader\obj\Debug\xml_reader.exe
+C:\Users\d.kulikov\Desktop\Занятие_22_11_2022\xml_reader\xml_reader\obj\Debug\xml_reader.pdb

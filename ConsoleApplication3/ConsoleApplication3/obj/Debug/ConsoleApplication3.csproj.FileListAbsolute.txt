@@ -1,0 +1,13 @@
+C:\Сохранение_проектов_с#\ConsoleApplication3\ConsoleApplication3\bin\Debug\ConsoleApplication3.exe.config
+C:\Сохранение_проектов_с#\ConsoleApplication3\ConsoleApplication3\bin\Debug\ConsoleApplication3.exe
+C:\Сохранение_проектов_с#\ConsoleApplication3\ConsoleApplication3\bin\Debug\ConsoleApplication3.pdb
+C:\Сохранение_проектов_с#\ConsoleApplication3\ConsoleApplication3\obj\Debug\ConsoleApplication3.csprojResolveAssemblyReference.cache
+C:\Сохранение_проектов_с#\ConsoleApplication3\ConsoleApplication3\obj\Debug\ConsoleApplication3.exe
+C:\Сохранение_проектов_с#\ConsoleApplication3\ConsoleApplication3\obj\Debug\ConsoleApplication3.pdb
+C:\Users\d.kulikov\Desktop\Для_12_09_2022\ConsoleApplication3\ConsoleApplication3\bin\Debug\ConsoleApplication3.exe.config
+C:\Users\d.kulikov\Desktop\Для_12_09_2022\ConsoleApplication3\ConsoleApplication3\bin\Debug\ConsoleApplication3.exe
+C:\Users\d.kulikov\Desktop\Для_12_09_2022\ConsoleApplication3\ConsoleApplication3\bin\Debug\ConsoleApplication3.pdb
+C:\Users\d.kulikov\Desktop\Для_12_09_2022\ConsoleApplication3\ConsoleApplication3\obj\Debug\ConsoleApplication3.csprojAssemblyReference.cache
+C:\Users\d.kulikov\Desktop\Для_12_09_2022\ConsoleApplication3\ConsoleApplication3\obj\Debug\ConsoleApplication3.csproj.CoreCompileInputs.cache
+C:\Users\d.kulikov\Desktop\Для_12_09_2022\ConsoleApplication3\ConsoleApplication3\obj\Debug\ConsoleApplication3.exe
+C:\Users\d.kulikov\Desktop\Для_12_09_2022\ConsoleApplication3\ConsoleApplication3\obj\Debug\ConsoleApplication3.pdb

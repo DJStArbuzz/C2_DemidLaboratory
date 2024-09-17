@@ -1,0 +1,39 @@
+D:\VS2017\C#\lab4\lab4\bin\Debug\lab4.exe.config
+D:\VS2017\C#\lab4\lab4\bin\Debug\lab4.exe
+D:\VS2017\C#\lab4\lab4\bin\Debug\lab4.pdb
+D:\VS2017\C#\lab4\lab4\obj\Debug\lab4.csprojAssemblyReference.cache
+D:\VS2017\C#\lab4\lab4\obj\Debug\lab4.Form1.resources
+D:\VS2017\C#\lab4\lab4\obj\Debug\lab4.Properties.Resources.resources
+D:\VS2017\C#\lab4\lab4\obj\Debug\lab4.csproj.GenerateResource.cache
+D:\VS2017\C#\lab4\lab4\obj\Debug\lab4.csproj.CoreCompileInputs.cache
+D:\VS2017\C#\lab4\lab4\obj\Debug\lab4.exe
+D:\VS2017\C#\lab4\lab4\obj\Debug\lab4.pdb
+D:\VS2017\C#\lab4\lab4\obj\Debug\lab4.Form2.resources
+D:\VS2017\C#\lab4\lab4\obj\Debug\lab4.Form4.resources
+D:\VS2017\C#\lab4\lab4\obj\Debug\lab4.Form5.resources
+c:\Переработка_лабы_20_11_2022\lab4 (2)\lab4\bin\Debug\lab4.exe.config
+c:\Переработка_лабы_20_11_2022\lab4 (2)\lab4\bin\Debug\lab4.exe
+c:\Переработка_лабы_20_11_2022\lab4 (2)\lab4\bin\Debug\lab4.pdb
+c:\Переработка_лабы_20_11_2022\lab4 (2)\lab4\obj\Debug\lab4.csproj.AssemblyReference.cache
+c:\Переработка_лабы_20_11_2022\lab4 (2)\lab4\obj\Debug\lab4.Form1.resources
+c:\Переработка_лабы_20_11_2022\lab4 (2)\lab4\obj\Debug\lab4.Form2.resources
+c:\Переработка_лабы_20_11_2022\lab4 (2)\lab4\obj\Debug\lab4.Form4.resources
+c:\Переработка_лабы_20_11_2022\lab4 (2)\lab4\obj\Debug\lab4.Form5.resources
+c:\Переработка_лабы_20_11_2022\lab4 (2)\lab4\obj\Debug\lab4.Properties.Resources.resources
+c:\Переработка_лабы_20_11_2022\lab4 (2)\lab4\obj\Debug\lab4.csproj.GenerateResource.cache
+c:\Переработка_лабы_20_11_2022\lab4 (2)\lab4\obj\Debug\lab4.csproj.CoreCompileInputs.cache
+c:\Переработка_лабы_20_11_2022\lab4 (2)\lab4\obj\Debug\lab4.exe
+c:\Переработка_лабы_20_11_2022\lab4 (2)\lab4\obj\Debug\lab4.pdb
+C:\Users\d.kulikov\Desktop\Занятие_22_11_2022\lab4 (2)\lab4\bin\Debug\lab4.exe.config
+C:\Users\d.kulikov\Desktop\Занятие_22_11_2022\lab4 (2)\lab4\bin\Debug\lab4.exe
+C:\Users\d.kulikov\Desktop\Занятие_22_11_2022\lab4 (2)\lab4\bin\Debug\lab4.pdb
+C:\Users\d.kulikov\Desktop\Занятие_22_11_2022\lab4 (2)\lab4\obj\Debug\lab4.csprojAssemblyReference.cache
+C:\Users\d.kulikov\Desktop\Занятие_22_11_2022\lab4 (2)\lab4\obj\Debug\lab4.Form1.resources
+C:\Users\d.kulikov\Desktop\Занятие_22_11_2022\lab4 (2)\lab4\obj\Debug\lab4.Form2.resources
+C:\Users\d.kulikov\Desktop\Занятие_22_11_2022\lab4 (2)\lab4\obj\Debug\lab4.Form4.resources
+C:\Users\d.kulikov\Desktop\Занятие_22_11_2022\lab4 (2)\lab4\obj\Debug\lab4.Form5.resources
+C:\Users\d.kulikov\Desktop\Занятие_22_11_2022\lab4 (2)\lab4\obj\Debug\lab4.Properties.Resources.resources
+C:\Users\d.kulikov\Desktop\Занятие_22_11_2022\lab4 (2)\lab4\obj\Debug\lab4.csproj.GenerateResource.cache
+C:\Users\d.kulikov\Desktop\Занятие_22_11_2022\lab4 (2)\lab4\obj\Debug\lab4.csproj.CoreCompileInputs.cache
+C:\Users\d.kulikov\Desktop\Занятие_22_11_2022\lab4 (2)\lab4\obj\Debug\lab4.exe
+C:\Users\d.kulikov\Desktop\Занятие_22_11_2022\lab4 (2)\lab4\obj\Debug\lab4.pdb

@@ -1,0 +1,14 @@
+C:\Документы_Куликов\16_09_2020_С#\ConsoleApp1_1\ConsoleApp1\bin\Debug\netcoreapp3.1\ConsoleApp1.exe
+C:\Документы_Куликов\16_09_2020_С#\ConsoleApp1_1\ConsoleApp1\bin\Debug\netcoreapp3.1\ConsoleApp1.deps.json
+C:\Документы_Куликов\16_09_2020_С#\ConsoleApp1_1\ConsoleApp1\bin\Debug\netcoreapp3.1\ConsoleApp1.runtimeconfig.json
+C:\Документы_Куликов\16_09_2020_С#\ConsoleApp1_1\ConsoleApp1\bin\Debug\netcoreapp3.1\ConsoleApp1.runtimeconfig.dev.json
+C:\Документы_Куликов\16_09_2020_С#\ConsoleApp1_1\ConsoleApp1\bin\Debug\netcoreapp3.1\ConsoleApp1.dll
+C:\Документы_Куликов\16_09_2020_С#\ConsoleApp1_1\ConsoleApp1\bin\Debug\netcoreapp3.1\ConsoleApp1.pdb
+C:\Документы_Куликов\16_09_2020_С#\ConsoleApp1_1\ConsoleApp1\obj\Debug\netcoreapp3.1\ConsoleApp1.csproj.AssemblyReference.cache
+C:\Документы_Куликов\16_09_2020_С#\ConsoleApp1_1\ConsoleApp1\obj\Debug\netcoreapp3.1\ConsoleApp1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Документы_Куликов\16_09_2020_С#\ConsoleApp1_1\ConsoleApp1\obj\Debug\netcoreapp3.1\ConsoleApp1.AssemblyInfoInputs.cache
+C:\Документы_Куликов\16_09_2020_С#\ConsoleApp1_1\ConsoleApp1\obj\Debug\netcoreapp3.1\ConsoleApp1.AssemblyInfo.cs
+C:\Документы_Куликов\16_09_2020_С#\ConsoleApp1_1\ConsoleApp1\obj\Debug\netcoreapp3.1\ConsoleApp1.csproj.CoreCompileInputs.cache
+C:\Документы_Куликов\16_09_2020_С#\ConsoleApp1_1\ConsoleApp1\obj\Debug\netcoreapp3.1\ConsoleApp1.dll
+C:\Документы_Куликов\16_09_2020_С#\ConsoleApp1_1\ConsoleApp1\obj\Debug\netcoreapp3.1\ConsoleApp1.pdb
+C:\Документы_Куликов\16_09_2020_С#\ConsoleApp1_1\ConsoleApp1\obj\Debug\netcoreapp3.1\ConsoleApp1.genruntimeconfig.cache

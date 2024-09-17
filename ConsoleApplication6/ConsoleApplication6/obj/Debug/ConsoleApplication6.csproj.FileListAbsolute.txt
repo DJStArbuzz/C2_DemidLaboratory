@@ -1,0 +1,13 @@
+C:\Сохранение_проектов_с#\ConsoleApplication6\ConsoleApplication6\bin\Debug\ConsoleApplication6.exe.config
+C:\Сохранение_проектов_с#\ConsoleApplication6\ConsoleApplication6\obj\Debug\ConsoleApplication6.csprojResolveAssemblyReference.cache
+C:\Сохранение_проектов_с#\ConsoleApplication6\ConsoleApplication6\bin\Debug\ConsoleApplication6.exe
+C:\Сохранение_проектов_с#\ConsoleApplication6\ConsoleApplication6\bin\Debug\ConsoleApplication6.pdb
+C:\Сохранение_проектов_с#\ConsoleApplication6\ConsoleApplication6\obj\Debug\ConsoleApplication6.exe
+C:\Сохранение_проектов_с#\ConsoleApplication6\ConsoleApplication6\obj\Debug\ConsoleApplication6.pdb
+C:\Users\d.kulikov\Desktop\Для_12_09_2022\ConsoleApplication6\ConsoleApplication6\bin\Debug\ConsoleApplication6.exe.config
+C:\Users\d.kulikov\Desktop\Для_12_09_2022\ConsoleApplication6\ConsoleApplication6\bin\Debug\ConsoleApplication6.exe
+C:\Users\d.kulikov\Desktop\Для_12_09_2022\ConsoleApplication6\ConsoleApplication6\bin\Debug\ConsoleApplication6.pdb
+C:\Users\d.kulikov\Desktop\Для_12_09_2022\ConsoleApplication6\ConsoleApplication6\obj\Debug\ConsoleApplication6.csprojAssemblyReference.cache
+C:\Users\d.kulikov\Desktop\Для_12_09_2022\ConsoleApplication6\ConsoleApplication6\obj\Debug\ConsoleApplication6.csproj.CoreCompileInputs.cache
+C:\Users\d.kulikov\Desktop\Для_12_09_2022\ConsoleApplication6\ConsoleApplication6\obj\Debug\ConsoleApplication6.exe
+C:\Users\d.kulikov\Desktop\Для_12_09_2022\ConsoleApplication6\ConsoleApplication6\obj\Debug\ConsoleApplication6.pdb
