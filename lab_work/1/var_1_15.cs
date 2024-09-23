@@ -12,35 +12,36 @@ namespace lab1
         static List<string> oddWords = new List<string>();
         static List<string> words = new List<string>();
 
-
-        static void writeInfo()
+        static void writeInfo(StreamWriter writer)
         {
-            Console.WriteLine("\nСлов с четным количеством букв в строке: " + evenWords.Count());
-            Console.Write("Слова с четным количеством букв: ");
+            writer.WriteLine("\nСлов с четным количеством букв в строке: " + evenWords.Count());
+            writer.Write("Слова с четным количеством букв: ");
             for (int i = 0; i < evenWords.Count(); i++)
-                Console.Write(evenWords[i] + " (" + evenWords[i].Length + "); ");
+                writer.Write(evenWords[i] + " (" + evenWords[i].Length + "); ");
 
-            Console.WriteLine("\nСлов с нечетным количеством букв в строке: " + oddWords.Count());
-            Console.Write("Слова с нечетным количеством букв: ");
+            writer.WriteLine("\nСлов с нечетным количеством букв в строке: " + oddWords.Count());
+            writer.Write("Слова с нечетным количеством букв: ");
             for (int i = 0; i < oddWords.Count(); i++)
-                Console.Write(oddWords[i] + " (" + oddWords[i].Length + "); ");
+                writer.Write(oddWords[i] + " (" + oddWords[i].Length + "); ");
 
             oddWords.Clear();
             evenWords.Clear();
         }
 
-        static void solve()
+        static void solve(StreamWriter writer)
         {
             string[] tmp = { };
             for (int i = 0; i < textFile.Count(); i++)
             {
-                tmp = textFile[i].Split(' ', '.', ',', ':', ';', '!', '?', '\r', '\n');
-                for (int j = 0; j < tmp.Count(); j++)
+                tmp = textFile[i].Split(new char[] { ' ', '.', ',', ':', ';', '!', '?', '\r', '\n' }, StringSplitOptions.RemoveEmptyEntries);
+                for (int j = 0; j < tmp.Length; j++)
                     words.Add(tmp[j]);
+
                 sortWords();
-                Console.WriteLine("\n----------------------------");
-                Console.WriteLine("\nСтрока №" + (i + 1));
-                writeInfo();
+
+                writer.WriteLine("\n----------------------------");
+                writer.WriteLine("\nСтрока №" + (i + 1));
+                writeInfo(writer);
 
                 words.Clear();
             }
@@ -53,7 +54,7 @@ namespace lab1
                 if (words[i].Length % 2 == 0)
                     evenWords.Add(words[i]);
                 else
-                    oddWords.Add(words[i]); 
+                    oddWords.Add(words[i]);
             }
         }
 
@@ -64,19 +65,35 @@ namespace lab1
                 Console.WriteLine("Лабораторная 1, вариант 15.");
                 Console.WriteLine("Сортировка слов по их размеру (четности).");
 
-                FileStream file = new FileStream("C:\\Users\\Admin\\source\\repos\\lab1\\lab1\\test.txt", FileMode.Open);
-                StreamReader sr = new StreamReader(file);
-                while (!sr.EndOfStream)
-                    textFile.Add(sr.ReadLine());
-                
-                solve();
+                string inputFilePath = "C:\\Users\\Admin\\source\\repos\\lab1\\lab1\\tes.txt";
+                string resultFilePath = "C:\\Users\\Admin\\source\\repos\\lab1\\lab1\\result.txt";
+
+                using (FileStream file = new FileStream(inputFilePath, FileMode.Open))
+                using (StreamReader sr = new StreamReader(file))
+                using (StreamWriter writer = new StreamWriter(resultFilePath))
+                {
+                    while (!sr.EndOfStream)
+                        textFile.Add(sr.ReadLine());
+
+                    writer.WriteLine("Лабораторная 1, вариант 15.");
+                    writer.WriteLine("Сортировка слов по их размеру (четности).");
+                    solve(writer);
+                    writer.WriteLine("\n----------------------------");
+                    writer.WriteLine("\nЗавершение сценария.");
+                }
+
                 Console.WriteLine("\n----------------------------");
                 Console.WriteLine("\nЗавершение сценария.");
                 Console.ReadKey();
             }
-            catch 
+            catch (FileNotFoundException)
             {
                 Console.WriteLine("Обработка исключения: ФАЙЛ НЕ БЫЛ НАЙДЕН!");
+                Console.ReadKey();
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Обработка исключения: {ex.Message}");
                 Console.ReadKey();
             }
         }
