@@ -1,0 +1,10 @@
+C:\Users\Admin\source\repos\lab2_C\lab2_C\bin\Debug\lab2_C.exe.config
+C:\Users\Admin\source\repos\lab2_C\lab2_C\bin\Debug\lab2_C.exe
+C:\Users\Admin\source\repos\lab2_C\lab2_C\bin\Debug\lab2_C.pdb
+C:\Users\Admin\source\repos\lab2_C\lab2_C\obj\Debug\lab2_C.csproj.AssemblyReference.cache
+C:\Users\Admin\source\repos\lab2_C\lab2_C\obj\Debug\lab2_C.Properties.Resources.resources
+C:\Users\Admin\source\repos\lab2_C\lab2_C\obj\Debug\lab2_C.csproj.GenerateResource.cache
+C:\Users\Admin\source\repos\lab2_C\lab2_C\obj\Debug\lab2_C.csproj.CoreCompileInputs.cache
+C:\Users\Admin\source\repos\lab2_C\lab2_C\obj\Debug\lab2_C.exe
+C:\Users\Admin\source\repos\lab2_C\lab2_C\obj\Debug\lab2_C.pdb
+C:\Users\Admin\source\repos\lab2_C\lab2_C\obj\Debug\lab2_C.Form1.resources
