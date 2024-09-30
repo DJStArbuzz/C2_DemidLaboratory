@@ -24,6 +24,7 @@ namespace lab2_C
             this.heightTrackBar = new System.Windows.Forms.TrackBar();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
+            this.panelError = new System.Windows.Forms.Panel();
             ((System.ComponentModel.ISupportInitialize)(this.widthTrackBar)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.heightTrackBar)).BeginInit();
             this.SuspendLayout();
@@ -81,7 +82,7 @@ namespace lab2_C
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(682, 16);
             this.label1.TabIndex = 6;
-            this.label1.Text = "Изменяем матрицу по правилу: Aij = round(Aij), i + j - нечетная сумма, Aij = roun" +
+            this.label1.Text = "Изменяем матрицу по правилу: Aij = round(Aij), i + j - нечетная сумма, Aij = round" +
     "d(Aij) + 1, i + j - четная сумма.";
             // 
             // label2
@@ -91,14 +92,22 @@ namespace lab2_C
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(584, 16);
             this.label2.TabIndex = 7;
-            this.label2.Text = "Введена буква вместо цифры - обрабываем как 0. Не ввели число - обрабатываем как " +
+            this.label2.Text = "Введена буква вместо цифры - обрабатываем как 0. Не ввели число - обрабатываем как " +
     "0.";
+            // 
+            // panelError
+            // 
+            this.panelError.Location = new System.Drawing.Point(84, 370);
+            this.panelError.Name = "panelError";
+            this.panelError.Size = new System.Drawing.Size(622, 41);
+            this.panelError.TabIndex = 8;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.panelError);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.outputPanel);
@@ -120,6 +129,7 @@ namespace lab2_C
         private System.Windows.Forms.Panel outputPanel;
         private System.Windows.Forms.TrackBar widthTrackBar;
         private System.Windows.Forms.TrackBar heightTrackBar;
+        private System.Windows.Forms.Panel panelError;
         private Label label1;
         private Label label2;
     }
