@@ -15,11 +15,9 @@ namespace SimpleSignal
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
 
-            // Создание и отображение Form1
             Form1 form1 = new Form1();
             form1.Show();
 
-            // Создание и отображение MainForm
             MainForm mainForm = new MainForm();
             Application.Run(mainForm);
         }
