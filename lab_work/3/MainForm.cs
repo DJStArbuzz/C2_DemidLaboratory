@@ -12,8 +12,12 @@ namespace SimpleSignal
     public partial class MainForm : Form
     {
         private StatusStrip statusStrip;
-        private List<(double x, double y)> criticalPoints = new List<(double, double)>();
-        private List<(double x, double y)> zeros = new List<(double, double)>();
+        private List<(double x, double y)> criticalPoints1 = new List<(double, double)>();
+        private List<(double x, double y)> zeros1 = new List<(double, double)>();
+
+        private List<(double x, double y)> criticalPoints2 = new List<(double, double)>();
+        private List<(double x, double y)> zeros2 = new List<(double, double)>();
+
 
         public MainForm()
         {
@@ -50,14 +54,17 @@ namespace SimpleSignal
         {
             if(AreAlmostEqual(x, -1) || (AreAlmostEqual(x, 1)))
             {
-                criticalPoints.Add((x, double.NaN));
+                criticalPoints1.Add((x, double.NaN));
+ 
+        
                 return double.NaN;
             }
 
             double result = x * 1.0 / ((x + 1.0) * (1 - x) * (1 - x));
             if(AreAlmostEqual(result, 0))
             {
-                zeros.Add((x, result));
+                zeros1.Add((x, result));
+
             }
 
             return result;
@@ -67,7 +74,7 @@ namespace SimpleSignal
         {
             if (AreAlmostEqual(x, -1) || (AreAlmostEqual(x, 1)))
             {
-                criticalPoints.Add((x, double.NaN));
+                criticalPoints2.Add((x, double.NaN));
                 return double.NaN;
             }
 
@@ -75,7 +82,7 @@ namespace SimpleSignal
                             (Math.Pow(1 - x, 4) * Math.Pow(x + 1, 4));
             if(AreAlmostEqual(result, 0))
             {
-                zeros.Add((x, result));
+                zeros2.Add((x, result));
             }
 
             return result;
@@ -98,6 +105,10 @@ namespace SimpleSignal
                 {
                     list.Add(x, y);
                 }
+                else
+                {
+                    list.Add(PointPairBase.Missing, PointPairBase.Missing);
+                }
             }
 
             for (double x = xmin; x <= xmax; x += 0.01)
@@ -107,7 +118,10 @@ namespace SimpleSignal
                 {
                     list2.Add(x, y);
                 }
-   
+                else
+                {
+                    list2.Add(PointPairBase.Missing, PointPairBase.Missing);
+                }
             }
 
             LineItem myCurve2 = pane.AddCurve("Second", list2, Color.Red, SymbolType.None); // Исправлено использование list2
@@ -131,15 +145,25 @@ namespace SimpleSignal
 
             // Выводим критические точки и нули
             outputTextBox.Clear();
-            outputTextBox.AppendText("Критические точки:\n");
-            foreach (var point in criticalPoints)
+            outputTextBox.AppendText("Критические точки функции: ");
+            foreach (var point in criticalPoints1)
             {
-                outputTextBox.AppendText($"({point.x}, NaN)\n");
+                outputTextBox.AppendText($"({Math.Round(point.x)}, NaN), ");
             }
-            outputTextBox.AppendText("\nНули функций:\n");
-            foreach (var zero in zeros)
+            outputTextBox.AppendText("\r\nНули функции: ");
+            foreach (var zero in zeros1)
             {
-                outputTextBox.AppendText($"({zero.x}, {zero.y})\n");
+                outputTextBox.AppendText($"({Math.Round(zero.x)}, {Math.Round(zero.y)}), ");
+            }
+            outputTextBox.AppendText("\r\nКритические точки производной: ");
+            foreach (var point in criticalPoints2)
+            {
+                outputTextBox.AppendText($"({Math.Round(point.x, 2)}, NaN), ");
+            }
+            outputTextBox.AppendText("\r\nНули производной: ");
+            foreach (var zero in zeros2)
+            {
+                outputTextBox.AppendText($"({Math.Round(zero.x, 2)}, {Math.Round(zero.y)}), ");
             }
         }
 
