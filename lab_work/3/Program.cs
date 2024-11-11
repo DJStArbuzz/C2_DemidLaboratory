@@ -19,7 +19,11 @@ namespace SimpleSignal
             form1.Show();
 
             MainForm mainForm = new MainForm();
+            VennDiagramForm vennDiagramForm = new VennDiagramForm();
+            vennDiagramForm.Show();
+
             Application.Run(mainForm);
         }
     }
+
 }
