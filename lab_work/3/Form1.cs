@@ -25,8 +25,8 @@ namespace SimpleSignal
         {
             Graphics g = e.Graphics;
             Pen pen1 = new Pen(Color.Blue);
-            Pen pen2 = new Pen(Color.Red); 
-            Pen axisPen = new Pen(Color.Black); 
+            Pen pen2 = new Pen(Color.Red);
+            Pen axisPen = new Pen(Color.Black);
 
             g.Clear(Color.White);
 
@@ -35,19 +35,55 @@ namespace SimpleSignal
 
             double xmin = -10;
             double xmax = 10;
+            float previousX1 = float.NaN, previousY1 = float.NaN;
+            float previousX2 = float.NaN, previousY2 = float.NaN;
 
             for (double x = xmin; x <= xmax; x += 0.01)
             {
                 double y = f(x);
                 if (!double.IsNaN(y))
-                    g.DrawRectangle(pen1, (float)(x * 20 + 200), (float)(-y * 20 + 200), 1, 1);
+                {
+                    float currentX = (float)(x * 20 + 200);
+                    float currentY = (float)(-y * 20 + 200);
+
+                    // Draw the line for function f(x)
+                    if (!float.IsNaN(previousX1) && !float.IsNaN(previousY1))
+                    {
+                        g.DrawLine(pen1, previousX1, previousY1, currentX, currentY);
+                    }
+
+                    previousX1 = currentX;
+                    previousY1 = currentY;
+                }
+                else
+                {
+                    previousX1 = float.NaN;
+                    previousY1 = float.NaN;  // Reset if there's a discontinuity
+                }
             }
 
             for (double x = xmin; x <= xmax; x += 0.01)
             {
                 double y2 = g2(x);
                 if (!double.IsNaN(y2))
-                    g.DrawRectangle(pen2, (float)(x * 20 + 200), (float)(-y2 * 20 + 200), 1, 1);
+                {
+                    float currentX = (float)(x * 20 + 200);
+                    float currentY = (float)(-y2 * 20 + 200);
+
+                    // Draw the line for function g2(x)
+                    if (!float.IsNaN(previousX2) && !float.IsNaN(previousY2))
+                    {
+                        g.DrawLine(pen2, previousX2, previousY2, currentX, currentY);
+                    }
+
+                    previousX2 = currentX;
+                    previousY2 = currentY;
+                }
+                else
+                {
+                    previousX2 = float.NaN;
+                    previousY2 = float.NaN;  // Reset if there's a discontinuity
+                }
             }
 
             outputTextBox.Clear();
