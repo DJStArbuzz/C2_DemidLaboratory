@@ -7,14 +7,25 @@ namespace lab4
     public partial class Form7 : Form
     {
         private string trainNumber;
+        private string trainYear;
+        private string trainSize;
+        private string trainType;
 
-        public Form7(string trainNumber)
+        public Form7(PassTrain train)
         {
             InitializeComponent();
-            this.trainNumber = trainNumber;
+            this.trainNumber = train.GetNum().ToString();
+            this.trainYear = train.GetYear().ToString();
+            this.trainSize = train.GetSeats().ToString();
+            this.trainType = train.GetColor().ToString();
+
 
             // Заполнение полей
             textBoxTrainNumber.Text = trainNumber;
+            textBoxCapacity.Text = trainSize;
+            textBoxYear.Text = trainYear;
+            textBoxColor.Text = trainType;
+
             textBoxTrainNumber.Enabled = false;
         }
 

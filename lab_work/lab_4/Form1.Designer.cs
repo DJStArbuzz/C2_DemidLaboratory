@@ -116,7 +116,7 @@
             this.buttonFilter.Name = "button5";
             this.buttonFilter.Size = new System.Drawing.Size(126, 50);
             this.buttonFilter.TabIndex = 6;
-            this.buttonFilter.Text = "Фильтрация";
+            this.buttonFilter.Text = "Сортировка";
             this.buttonFilter.UseVisualStyleBackColor = true;
             this.buttonFilter.Click += new System.EventHandler(this.button5_Click);
             // 

@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<root>
+  <TrainP num="100">
+    <Year>2010</Year>
+    <Size>200</Size>
+    <Type>зеленый</Type>
+  </TrainP>
+
+  <TrainP num="4">
+    <Year>1990</Year>
+    <Size>300</Size>
+    <Type>синий</Type>
+  </TrainP>
+
+  <TrainP num="10">
+    <Year>2015</Year>
+    <Size>1000</Size>
+    <Type>красный</Type>
+  </TrainP>
+
+  <TrainP num="200">
+    <Year>2022</Year>
+    <Size>2000</Size>
+    <Type>зеленый</Type>
+  </TrainP>
+
+  <TrainP num="300">
+    <Year>2010</Year>
+    <Size>200</Size>
+    <Type>белый</Type>
+  </TrainP>
+
+  <TrainP num="500">
+    <Year>2000</Year>
+    <Size>250</Size>
+    <Type>черный</Type>
+  </TrainP>
+</root>

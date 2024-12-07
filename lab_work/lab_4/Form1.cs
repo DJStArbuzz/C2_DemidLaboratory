@@ -2,7 +2,9 @@
 using System.Collections.Generic;
 using System.Data;
 using System.Linq;
+using System.Reflection.Emit;
 using System.Windows.Forms;
+using System.Xml;
 
 namespace lab4
 {
@@ -67,12 +69,32 @@ namespace lab4
             FreightTrainsTable.Columns.Add("Type", "Тип груза");
             //dataGridView2.RowCount = 1;
 
-            // начальный набор данных    
-            PassTrains.Add(new PassTrain(100, 2010, 200, "зеленый"));
-            PassTrains.Add(new PassTrain(4, 1990, 300, "синий"));
-            PassTrains.Add(new PassTrain(10, 2015, 1000, "красный"));
-            FrTrains.Add(new FrTrain(961, 1980, 2000, "опасный"));
-            FrTrains.Add(new FrTrain(765, 1991, 1020, "жидкий"));
+            XmlDocument docPaTrains = new XmlDocument();
+            docPaTrains.Load("C:\\Users\\Admin\\Desktop\\Документы_19_11_2024\\lab4\\lab4\\trainP.xml");
+
+            foreach (XmlNode node in docPaTrains.DocumentElement)
+            {
+                int num = int.Parse(node.Attributes[0].Value);
+                int year = int.Parse((node["Year"].InnerText));
+                int size = int.Parse(node["Size"].InnerText);
+                string type = node["Type"].InnerText;
+
+                PassTrains.Add(new PassTrain(num, year, size, type));
+            }
+
+            XmlDocument docFrTrains = new XmlDocument();
+            docFrTrains.Load("C:\\Users\\Admin\\Desktop\\Документы_19_11_2024\\lab4\\lab4\\trainF.xml");
+
+            foreach (XmlNode node in docFrTrains.DocumentElement)
+            {
+                int num = int.Parse(node.Attributes[0].Value);
+                int year = int.Parse((node["Year"].InnerText));
+                int size = int.Parse(node["Size"].InnerText);
+                string type = node["Type"].InnerText;
+
+                FrTrains.Add(new FrTrain(num, year, size, type));
+            }
+
             PassTrains.Sort();
             FrTrains.Sort();
             update();
@@ -94,10 +116,16 @@ namespace lab4
             if (e.RowIndex >= 0)
             {
                 // Получаем данные о поезде из выбранной строки
-                string trainNumber = passengerTrainsTable.Rows[e.RowIndex].Cells[0].Value.ToString();
+                var trainNumber = passengerTrainsTable.Rows[e.RowIndex];
+                PassTrain curr = new PassTrain(int.Parse(trainNumber.Cells[0].Value.ToString()),
+                    int.Parse(trainNumber.Cells[2].Value.ToString()),
+                    int.Parse(trainNumber.Cells[1].Value.ToString()),
+                   (trainNumber.Cells[3].Value.ToString())
+                    );
+
 
                 // Создаем новое окно формы изменения/удаления
-                Form7 f = new Form7(trainNumber);
+                Form7 f = new Form7(curr);
                 f.Owner = this;
                 f.ShowDialog();
 
@@ -112,10 +140,16 @@ namespace lab4
             if (e.RowIndex >= 0)
             {
                 // Получаем данные о поезде из выбранной строки
-                string trainNumber = FreightTrainsTable.Rows[e.RowIndex].Cells[0].Value.ToString();
+                var trainNumber = FreightTrainsTable.Rows[e.RowIndex];
+                FrTrain curr = new FrTrain(int.Parse(trainNumber.Cells[0].Value.ToString()),
+                    int.Parse(trainNumber.Cells[2].Value.ToString()),
+                    int.Parse(trainNumber.Cells[1].Value.ToString()),
+                   (trainNumber.Cells[3].Value.ToString())
+                    );
+
 
                 // Создаем новое окно формы изменения/удаления
-                Form9 f = new Form9(trainNumber);
+                Form9 f = new Form9(curr);
                 f.Owner = this;
                 f.ShowDialog();
 

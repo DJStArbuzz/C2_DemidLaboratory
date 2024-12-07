@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<root>
+  <TrainF num="961">
+    <Year>2010</Year>
+    <Size>200</Size>
+    <Type>опасный</Type>
+  </TrainF>
+
+  <TrainF num="765">
+    <Year>2000</Year>
+    <Size>2005</Size>
+    <Type>жидкий</Type>
+  </TrainF>
+
+  <TrainF num="1003">
+    <Year>1980</Year>
+    <Size>2004</Size>
+    <Type>безопасный</Type>
+  </TrainF>
+
+  <TrainF num="1002">
+    <Year>1999</Year>
+    <Size>2003</Size>
+    <Type>тупой</Type>
+  </TrainF>
+
+</root>
