@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<root>
+  <Book name="Война и мир">
+    <Author>Лев Толстой</Author>
+    <Price>20</Price>
+    <Year>1869</Year>
+    <NumOfPage>1488</NumOfPage>
+    <Circulation>1000000</Circulation>
+  </Book >
+
+  <Book name="Гарри Поттер и философский камень">
+    <Author>Джоан Роулинг</Author>
+    <Price>10</Price>
+    <Year>1997</Year>
+    <NumOfPage>336</NumOfPage>
+    <Circulation>500000</Circulation>
+  </Book >
+
+  <Book name="1984">
+    <Author>Джордж Оруэлл</Author>
+    <Price>15</Price>
+    <Year>1949</Year>
+    <NumOfPage>328</NumOfPage>
+    <Circulation>750000</Circulation>
+  </Book >
+
+  <Book name="Мастер и Маргарита">
+    <Author>Михаил Булгаков</Author>
+    <Price>12</Price>
+    <Year>1967</Year>
+    <NumOfPage>384</NumOfPage>
+    <Circulation>800000</Circulation>
+  </Book >
+
+  <Book name="Убить пересмешника">
+    <Author>Харпер Ли</Author>
+    <Price>18</Price>
+    <Year>1960</Year>
+    <NumOfPage>384</NumOfPage>
+    <Circulation>600000</Circulation>
+  </Book >
+
+</root>

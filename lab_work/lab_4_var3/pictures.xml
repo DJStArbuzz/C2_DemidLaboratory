@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<root>
+  <Picture name="Звездная ночь">
+    <Author>Винсент Ван Гог</Author>
+    <Price>100</Price>
+    <Year>1889</Year>
+    <Material>масло на холсте</Material>
+  </Picture>
+
+  <Picture name="Мона Лиза">
+    <Author>Леонардо да Винчи</Author>
+    <Price>800</Price>
+    <Year>1503</Year>
+    <Material>масло на дереве</Material>
+  </Picture>
+
+   <Picture name="Сотворение Адама">
+    <Author>Микеланджело</Author>
+    <Price>500</Price>
+     <Year>1511</Year>
+    <Material>мозаика</Material>
+  </Picture>
+
+  <Picture name="Крик">
+    <Author>Эдвард Мунк</Author>
+    <Price>120</Price>
+     <Year>1893</Year>
+    <Material>масло на холсте</Material>
+  </Picture>
+
+  <Picture name="Тайна ночи">
+    <Author>Сальвадор Дали</Author>
+    <Price>4</Price>
+    <Year>1926</Year>
+    <Material>масло на холсте</Material>
+  </Picture>
+
+</root>
