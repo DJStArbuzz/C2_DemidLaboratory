@@ -115,7 +115,7 @@
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(153, 16);
             this.label2.TabIndex = 7;
-            this.label2.Text = "Пассажирские поезда";
+            this.label2.Text = "Книги";
             // 
             // label1
             // 
@@ -124,7 +124,7 @@
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(122, 16);
             this.label1.TabIndex = 6;
-            this.label1.Text = "Грузовые поезда";
+            this.label1.Text = "Картины";
             // 
             // Form1
             // 
