@@ -115,7 +115,7 @@
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(153, 16);
             this.label2.TabIndex = 7;
-            this.label2.Text = "Книги";
+            this.label2.Text = "Картины";
             // 
             // label1
             // 
@@ -124,7 +124,7 @@
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(122, 16);
             this.label1.TabIndex = 6;
-            this.label1.Text = "Картины";
+            this.label1.Text = "Книги";
             // 
             // Form1
             // 

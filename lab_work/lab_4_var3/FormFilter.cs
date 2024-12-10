@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Linq;
 using System.Windows.Forms;
 
 namespace lab4
@@ -60,7 +61,7 @@ namespace lab4
             {
                 foreach (Book curr in FormMain.Books)
                 {
-                    if (curr.GetName().Equals(input, StringComparison.OrdinalIgnoreCase))
+                    if (curr.GetName().Contains(input))
                     {
                         FormMain.currBooks.Add(curr);
                     }
@@ -70,7 +71,7 @@ namespace lab4
             {
                 foreach (Book curr in FormMain.Books)
                 {
-                    if (curr.GetAuthor().Equals(input, StringComparison.OrdinalIgnoreCase))
+                    if (curr.GetAuthor().Contains(input))
                     {
                         FormMain.currBooks.Add(curr);
                     }
@@ -95,7 +96,7 @@ namespace lab4
             {
                 foreach (Picture curr in FormMain.Pictures)
                 {
-                    if (curr.GetName().Equals(input, StringComparison.OrdinalIgnoreCase))
+                    if (curr.GetName().Contains(input))
                     {
                         FormMain.currPictures.Add(curr);
                     }
@@ -105,7 +106,7 @@ namespace lab4
             {
                 foreach (Picture curr in FormMain.Pictures)
                 {
-                    if (curr.GetAuthor().Equals(input, StringComparison.OrdinalIgnoreCase))
+                    if (curr.GetAuthor().Contains(input))
                     {
                         FormMain.currPictures.Add(curr);
                     }
